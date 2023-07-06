@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} alt="Logo Image" className="w-48 h-48 mt-12" />
+          <img src={Logo} alt="Logo" className="w-48 h-48 mt-12" />
         </Link>
       </div>
       {/* menu */}

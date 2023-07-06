@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex flex-row justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2">
           <div className="">
-            <img className="rounded-full w-96" src={photo} />
+            <img className="rounded-full w-96" src={photo} alt="" />
           </div>
           <div className="">
             <p className=" text-4xl font-bold inline border-b-4 border-pink-600">
