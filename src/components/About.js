@@ -18,21 +18,23 @@ const About = () => {
             </p>
             <br></br>
             <p>
-              I started working as a Software Engineer in 2021 after completing
-              Full Stack Development certification from
-              <a className="text-pink-600" href="https://www.newtonschool.co/">
-                {" "}
-                Newton School
-              </a>
-              . Before transitioning into IT sector, I worked for 6 years in a
-              government bank. I have experience in developing fast, responsive
-              and dynamic web applications.
+              I have worked as a Front End Web Developer for about 2 years in
+              the IT industry.
+              {/* <a className="text-pink-600">
+              </a> */}
+              <br></br>
+              Before transitioning into IT sector, I worked for 6 years in a
+              government bank.
+              <br></br>I have experience in developing fast, responsive and
+              dynamic web applications.
+              <br></br>
+              You can see some of my projects and the skills that I have
+              acquired in my journey as a Software Engineer.
             </p>
             <br></br>
             <p>
-              Currently I am looking for a job as a Front End/Full Stack
-              Developer in the UK.<br></br>Please feel free to contact me at
-              anuraktiarora92@gmail.com
+              Currently, I am looking out for a job in the UK.<br></br>Please
+              feel free to contact me at anuraktiarora92@gmail.com
             </p>
           </div>
         </div>
