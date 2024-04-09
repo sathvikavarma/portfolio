@@ -18,13 +18,13 @@ const About = () => {
             </p>
             <br></br>
             <p>
-              I have worked as a Software Engineer for about 2 years in the IT
+              I have 2 years of experience as a Software Engineer in the IT
               industry.
               {/* <a className="text-pink-600">
               </a> */}
               <br></br>
-              Before transitioning into IT sector, I worked for 6 years in a
-              government bank.
+              Before transitioning into IT sector, I worked for 6 years as a
+              Banking Associate with a strong foundation in Financial Services.
               <br></br>I have experience in developing fast, responsive and
               dynamic web applications.
               <br></br>
