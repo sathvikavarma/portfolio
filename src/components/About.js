@@ -18,8 +18,8 @@ const About = () => {
             </p>
             <br></br>
             <p>
-              I have worked as a Front End Web Developer for about 2 years in
-              the IT industry.
+              I have worked as a Software Engineer for about 2 years in the IT
+              industry.
               {/* <a className="text-pink-600">
               </a> */}
               <br></br>
