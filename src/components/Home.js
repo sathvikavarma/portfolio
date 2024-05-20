@@ -10,7 +10,7 @@ const Home = () => {
           Anurakti Arora
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0] my-2">
-          I'm a Software Engineer.
+          I'm a UI Developer.
         </h2>
         <div>
           <Link to="work" smooth={true} duration={500}>
