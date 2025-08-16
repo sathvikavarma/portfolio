@@ -7,6 +7,12 @@
 @layer base {
   body {
     @apply font-[Raleway];
+    background-image: url('./assets/nature.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* filter: brightness(0.2);  */
   }
   li {
     @apply px-4;
@@ -27,4 +33,15 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
+}
+
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s steps(1) infinite;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }

@@ -4,20 +4,20 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-screen flex justify-center items-center p-4"
     >
       <form
-        action="https://formsubmit.co/anuraktiarora92@gmail.com"
+        action="https://formsubmit.co/sathvika.chekuri@gmail.com"
         method="POST"
         className="flex flex-col max-w-[600px] w-full"
       >
         <input type="hidden" name="_captcha" value="false" />
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl text-black-300 font-bold inline border-b-4 border-pink-600">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
-            Submit the form below or shoot an email - anuraktiarora92@gmail.com
+          <p className="text-white-300 py-4">
+            Submit the form below or shoot an email - sathvika.chekuri@gmail.com
           </p>
         </div>
         <input

@@ -1,40 +1,40 @@
 import React from "react";
-import FoodVilla from "../assets/projects/Foodvilla.jpeg";
-import tictactoe from "../assets/projects/tictactoe.jpeg";
+import food from "../assets/food.png";
+import shc from "../assets/shc.png";
 import disneyClone from "../assets/projects/disneyClone.jpeg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Work
-          </p>
-          <p className="py-6">Check out some of my recent work</p>
-        </div>
+    <div name="work" className="w-full md:h-screen text-gray-300">
+       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
+  <div className="text-center">
+    <p className="text-4xl text-black font-bold inline border-b-4 border-pink-600 ">
+      Work
+    </p>
+    <p className="text-white py-4">These are some of the projects I've worked on</p>
+  </div>
 
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item 1 */}
           <div
             style={{
-              backgroundImage: `url(${tictactoe})`,
+              backgroundImage: `url(${shc})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Tic Tac Toe Game
+                Smart health card
               </span>
               <div className="pt-8 text-center">
-                <a href="https://anurakti.github.io/TIC-TAC-TOE/">
+                <a href="https://github.com/sathvikavarma/shc">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Anurakti/TIC-TAC-TOE">
+                <a href="https://github.com/sathvikavarma/shc">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -53,12 +53,12 @@ const Work = () => {
                 Disney Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="https://disneyplus-clone-9adba.web.app/home">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Anurakti/disney_clone">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -67,21 +67,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${FoodVilla})` }}
+            style={{ backgroundImage: `url(${food})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Food Delivery App
+                Food Reciepe App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://anuraktiarora-foodvilla.netlify.app/">
+                <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Anurakti/foodvilla">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
