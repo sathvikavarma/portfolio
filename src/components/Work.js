@@ -5,13 +5,13 @@ import disneyClone from "../assets/projects/disneyClone.jpeg";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300">
+    <div name="work" className="w-full md:h-screen text-gray py-16 md:py-20 lg:py-24">
        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
   <div className="text-center">
     <p className="text-4xl text-black font-bold inline border-b-4 border-pink-600 ">
       Work
     </p>
-    <p className="text-white py-4">These are some of the projects I've worked on</p>
+    <p className="text-white py-4 font-bold">These are some of the projects I've worked on</p>
   </div>
 
         {/* container */}

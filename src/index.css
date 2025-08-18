@@ -6,20 +6,26 @@
 
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Raleway] relative;
     background-image: url('./assets/nature.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* filter: brightness(0.2);  */
   }
+
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Dull overlay */
+    z-index: -1;
+  }
+
   li {
-    @apply px-4;
-    @apply cursor-pointer;
+    @apply px-4 cursor-pointer;
   }
 }
-
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;

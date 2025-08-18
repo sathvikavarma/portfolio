@@ -47,10 +47,10 @@ const Home = () => {
         <h1 className="text-4xl sm:text-6xl font-bold text-white text-center">
           Sathvika Chekuri
         </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-[#0a192f] my-2 text-center">
+        <h3 className="text-4xl sm:text-6xl font-bold text-blue-500 my-2 text-center">
           Software Engineer
-        </h2>
-        <p className="text-xl font-bold text-black-800 typing-cursor mt-2 text-center">
+        </h3>
+        <p className="text-xl font-bold text-white typing-cursor mt-2 text-center">
           {text}
         </p>
       </div>

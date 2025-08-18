@@ -2,7 +2,7 @@ import photo from "../assets/coder.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full min-h-screen text-gray-300 px-4 py-8">
+    <div name="about" className="w-full min-h-screen text-gray-300 px-4 py-16 md:py-20 lg:py-24">
       <div className="max-w-[1000px] mx-auto flex flex-col md:grid md:grid-cols-2 items-center gap-8 mt-32">
         {/* Image Section */}
         <div className="flex justify-center">
